@@ -7,7 +7,7 @@ GET (i.e. readonly) operations and the transfers must be requested in binary.
 
 This is for Windows users who may need to run up a TFTP server for a short while
 such as PXE booting a client for a network install.  Also the handy `--dir` command
-line option lets to easily point to a different directory to server up
+line option lets to easily point to a different directory to serve up
 different files.
 
 ## Limitations
@@ -50,7 +50,7 @@ the `rotftp` server supports.
 If the files you want to serve are in a different directory
 to `C:\tftpboot` then use the `--dir` command
 line switch to specify the directory.  For example if the files are in directory
-`C:\ISO\OpenBSD\pxe` the run the server as follows:
+`C:\ISO\OpenBSD\pxe` then run the server as follows:
 
 ```
 python rotftp.py --dir C:\ISO\OpenBSD\pxe
